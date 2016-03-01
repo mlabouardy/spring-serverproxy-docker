@@ -1,0 +1,10 @@
+serverproxy:
+  image: tutum/haproxy
+  links:
+    - socialnetwork
+  ports:
+    - "80"
+    - "1936"
+
+socialnetwork:
+  image: socialnetwork-app
