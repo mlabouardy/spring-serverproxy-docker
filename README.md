@@ -6,11 +6,15 @@ Scale docker app using haproxy server
 
 # Build
 
-docker build -t socialnetwork-app .
+```sh
+$ docker build -t socialnetwork-app .
+```
 
 # Run
 
-docker-compose scale serverproxy=1 socialnetwork=3
+```sh
+$ docker-compose scale serverproxy=1 socialnetwork=3
+```
 
 # Results
 
