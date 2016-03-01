@@ -2,6 +2,8 @@
 
 Scale docker app using haproxy server
 
+<img src="arch.png" width="60%"/>
+
 # Build
 
 docker build -t socialnetwork-app .
